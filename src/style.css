@@ -195,6 +195,7 @@
 
   .dialogue {
     font-size: 1rem;
+    padding: .5rem
   }
 
   .header__title {
@@ -203,6 +204,9 @@
 
   .button {
     font-size: 1rem;
+    padding: .5rem;
+    bottom: .5rem;
+    left: .5rem;
   }
 
   .dialogue--square-1 {
@@ -233,5 +237,39 @@
   .dialogue--square-6 {
     display: inline-block;
     padding-right: .5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .dialogue {
+    font-size: 1.25rem;
+    padding: .75rem
+  }
+
+  .dialogue--square-1 {
+    padding-top: 3rem;
+  }
+
+  .header__title {
+    font-size: 3rem;
+  }
+
+  .button {
+    font-size: 1.25rem;
+    padding: .75rem;
+    bottom: .75rem;
+    left: .75rem;
+  }
+
+    .strip-1 {
+    height: 25rem;
+  }
+  
+  .strip-2 {
+    height: 25rem;
+  }
+  
+  .strip-3 {
+    height: 25rem;
   }
 }
