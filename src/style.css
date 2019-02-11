@@ -5,7 +5,6 @@
 
 .page {
   margin: .5rem;
-  padding-top: 2rem;
   background-color: #fff;
   margin-top: 2rem;
   font-family: 'Comic', cursive;
@@ -15,7 +14,7 @@
 .container {
   position: relative;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 1000px;
 }
 
 .dialogue {
@@ -35,11 +34,15 @@
 }
 
 .dialogue--square-4 {
+  position: relative;
+  top: -1px;
   display: inline-block;
   padding-right: .5rem;
 }
 
 .dialogue--square-5 {
+  position: relative;
+  top: -1px;
   display: inline-block;
   padding-right: .5rem;
 }
@@ -146,6 +149,7 @@
 }
 
 .square-4 {
+  position: relative;
   width: 100%;
   background-color: #fff;
   background: url('img/4.jpg') no-repeat center center;
@@ -181,5 +185,53 @@
   
   .strip-3 {
     height: 12rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .page {
+    padding-top: .5rem;
+  }
+
+  .dialogue {
+    font-size: 1rem;
+  }
+
+  .header__title {
+    font-size: 2.5rem;
+  }
+
+  .button {
+    font-size: 1rem;
+  }
+
+  .dialogue--square-1 {
+    padding-top: 2.15rem;
+    margin: -2px -2px 0 -2px;
+  }
+
+  .strip-1 {
+    height: 20rem;
+  }
+  
+  .strip-2 {
+    height: 18rem;
+  }
+  
+  .strip-3 {
+    height: 18rem;
+  }
+
+  .dialogue--square-4 {
+    top: 0px;
+  }
+
+  .dialogue--square-5 {
+    top: 0px;
+  }
+
+  .dialogue--square-6 {
+    display: inline-block;
+    padding-right: .5rem;
   }
 }
