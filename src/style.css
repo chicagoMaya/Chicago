@@ -207,6 +207,12 @@
     font-size: 1rem;
     padding: .5rem
   }
+  
+  .disclaimer {
+    bottom: .5rem;
+    right: .5rem;
+    font-size: 1rem;
+}
 
   .header__title {
     font-size: 2.5rem;
@@ -255,6 +261,12 @@
     font-size: 1.25rem;
     padding: .75rem
   }
+  
+  .disclaimer {
+    bottom: .75rem;
+    right: .75rem;
+    font-size: 1.25rem;
+}
 
   .dialogue--square-1 {
     padding-top: 3rem;
