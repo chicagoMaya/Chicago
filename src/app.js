@@ -12,11 +12,11 @@ function getCrazy() {
 }
 
 function drinkBacardi() {
-  document.getElementById('party').style.background = `url('src/img/10.jpg') no-repeat bottom left`;
+  document.getElementById('party').style.background = `url('src/img/10.jpg') no-repeat center center`;
   document.getElementById('party').style.backgroundSize = 'cover';
   document.getElementById('drink-bacardi').style.display = 'none';
   document.getElementById('disclaimer').style.display = 'none';
-  document.getElementById('party-dialogue').textContent = 'Happy birthday, Maja!';
+  document.getElementById('party-dialogue').textContent = 'Happy birthday, Maya!';
 }
 
 function getAssets() {
