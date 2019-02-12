@@ -64,6 +64,7 @@
 }
 
 .disclaimer {
+  display: none;
   position: absolute;
   bottom: .25rem;
   right: .25rem;
