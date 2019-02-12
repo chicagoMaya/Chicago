@@ -63,6 +63,16 @@
   margin: -2px -2px 0 -2px;
 }
 
+.disclaimer {
+  position: absolute;
+  bottom: .25rem;
+  right: .25rem;
+  font-size: .65rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 .button {
   position: absolute;
   bottom: .25rem;
