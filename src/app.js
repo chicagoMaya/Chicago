@@ -6,7 +6,8 @@ function getCrazy() {
   document.getElementById('party').style.backgroundSize = 'cover';
   document.getElementById('party-dialogue').textContent = 'Hey beautiful, It\'s your birthday, wanna drink Bacardi?';
   document.getElementById('get-crazy').setAttribute('id', 'drink-bacardi');
-  document.getElementById('drink-bacardi').textContent = 'Drink Bacardi';
+  document.getElementById('drink-bacardi').textContent = 'Drink Bacardi*';
+  document.getElementById('disclaimer').style.display = 'inline';
   document.getElementById('drink-bacardi').addEventListener('click', drinkBacardi);
 }
 
