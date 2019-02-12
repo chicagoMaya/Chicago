@@ -66,9 +66,10 @@
 .disclaimer {
   display: none;
   position: absolute;
+  margin: 0;
   bottom: .25rem;
   right: .25rem;
-  font-size: .65rem;
+  font-size: .325rem;
   color: #fff;
   text-transform: uppercase;
   font-style: italic;
@@ -212,7 +213,7 @@
   .disclaimer {
     bottom: .5rem;
     right: .5rem;
-    font-size: 1rem;
+    font-size: .5rem;
 }
 
   .header__title {
@@ -266,7 +267,7 @@
   .disclaimer {
     bottom: .75rem;
     right: .75rem;
-    font-size: 1.25rem;
+    font-size: .625rem;
 }
 
   .dialogue--square-1 {
