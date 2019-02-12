@@ -186,6 +186,14 @@
   border: 2px solid #353535;
 }
 
+.bunny {
+  display: none;
+  position: absolute;
+  bottom: -1rem;
+  right: .5rem;
+  height: 6rem;
+}
+
 @media (min-width: 376px) {
   .strip-1 {
     height: 15rem;
@@ -256,6 +264,11 @@
     display: inline-block;
     padding-right: .5rem;
   }
+
+  .bunny {
+    bottom: -1.7rem;
+    height: 10rem;
+  }
 }
 
 @media (min-width: 769px) {
@@ -295,5 +308,10 @@
   
   .strip-3 {
     height: 25rem;
+  }
+
+  .bunny {
+    bottom: -2.55rem;
+    height: 15rem;
   }
 }

@@ -16,7 +16,8 @@ function drinkBacardi() {
   document.getElementById('party').style.backgroundSize = 'cover';
   document.getElementById('drink-bacardi').style.display = 'none';
   document.getElementById('disclaimer').style.display = 'none';
-  document.getElementById('party-dialogue').textContent = 'Happy birthday, Maja!';
+  document.getElementById('bunny').style.display = 'block';
+  document.getElementById('party-dialogue').textContent = 'Happy birthday, Maya!';
 }
 
 function getAssets() {
